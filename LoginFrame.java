@@ -28,7 +28,6 @@ public class LoginFrame extends JFrame
     JPanel btnPnl;
     JPanel mainPnl;
     
-    
     //Declare 3 labels.
     JLabel headingLabel;
     JLabel usernameLabel;
@@ -45,8 +44,6 @@ public class LoginFrame extends JFrame
     JButton clearBtn;
     JButton exitBtn;
     
-    
-
     public LoginFrame()
     {
         //Page settings.
@@ -87,10 +84,10 @@ public class LoginFrame extends JFrame
         clearBtn = new JButton("Clear");
         exitBtn = new JButton("Exit");
         
-        //add heading to Panel.
+        //add heading to the Panel.
         headingPnl.add(headingLabel);
         
-        // add username to Panel.
+        // add username to the Panel.
         usernamePnl.add(usernameLabel);
         usernamePnl.add(usernameField);
         
@@ -103,31 +100,19 @@ public class LoginFrame extends JFrame
         btnPnl.add(clearBtn);
         btnPnl.add(exitBtn);
         
-        //add login and detail to the Panl
+        //add login and password to the Panel.
         loginDetailsPnl.add(usernamePnl);
         loginDetailsPnl.add(passwordPnl);
         
-        //add all to main Panel.
+        //add all to the main Panel.
         mainPnl.add(headingPnl,BorderLayout.NORTH);
         mainPnl.add(loginDetailsPnl, BorderLayout.CENTER);
         mainPnl.add(btnPnl, BorderLayout.SOUTH);
         
-        //add to the frame
+        //add to the frame.
         this.add(mainPnl);
         
-        //page settings.
-        
-        this.setVisible(true);
-        
-        
- 
-        
-        
-        
-        
-        
-        
-    }
-    
-    
+        //page settings.    
+        this.setVisible(true);      
+    } 
 }
