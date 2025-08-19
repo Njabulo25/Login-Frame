@@ -21,28 +21,28 @@ public class LoginFrame extends JFrame
     //Declare all compenents.
     
     //Declare 6 panles.
-    JPanel headingPnl;
-    JPanel loginDetailsPnl;
-    JPanel usernamePnl;
-    JPanel passwordPnl;
-    JPanel btnPnl;
-    JPanel mainPnl;
+    private JPanel headingPnl;
+    private JPanel loginDetailsPnl;
+    private JPanel usernamePnl;
+    private JPanel passwordPnl;
+    private JPanel btnPnl;
+    private JPanel mainPnl;
     
     //Declare 3 labels.
-    JLabel headingLabel;
-    JLabel usernameLabel;
-    JLabel passwordLabel;
+    private JLabel headingLabel;
+    private JLabel usernameLabel;
+    private JLabel passwordLabel;
     
     //Declare 1 Text field.
-    JTextField usernameField;
+    private JTextField usernameField;
     
     //Declare 1 password field.
     JPasswordField passwordField;
     
     //Declare 3 butons.
-    JButton submitBtn;
-    JButton clearBtn;
-    JButton exitBtn;
+    private JButton submitBtn;
+    private JButton clearBtn;
+    private JButton exitBtn;
     
     public LoginFrame()
     {
@@ -116,3 +116,4 @@ public class LoginFrame extends JFrame
         this.setVisible(true);      
     } 
 }
+
